@@ -201,12 +201,13 @@
 
     .experince_section .aboutus_image {
         margin: auto;
-        width: 70%;
+        width: 100%;
         text-align: center;
     }
-    
+
     .experince_section .aboutus_image img {
-        width: 80%;
+        width: calc(100% - 40%);
+        margin-top: 40px;
     }
     
     .experince_section .aboutus_text p {
@@ -231,10 +232,7 @@
         margin-top: 0px;
     }
 
-    .experince_section .aboutus_image img {
-        width: 100%;
-        margin-top: 40px;
-    }
+
 
     .contactMainBox .cta_form_box {
         display: block;

@@ -163,6 +163,7 @@ header nav ul li a {
 
 .services_card {
     overflow: hidden;
+    cursor: pointer;
 }
 
 .services_card .services_card_text_bar {
@@ -227,6 +228,15 @@ header nav ul li a {
     line-height: 32px;
 }
 
+.aboutus_text .cmnBtn:hover,
+.cta_form_box form button:hover,
+.offerCardBoxText .CardButton:hover{
+    background: #c88667;
+    transition: 0.5s ease-out;
+    border: 2px solid #e6a49c;
+    color:#fff;
+}
+
 
 .main_heading {
     color: #5fa9a4;
@@ -237,6 +247,11 @@ header nav ul li a {
 
 .main_heading span{
     color: #f77ea9;
+}
+
+.services_card:hover .services_card_text_bar img{
+    margin-right:10px;
+    cursor: pointer;    
 }
 
 .services_card .services_card_text_bar img {
@@ -312,17 +327,12 @@ header nav ul li a {
     margin-bottom: 20px;
 }
 
-
 .menuBar{
     display:none;
 }
 
 
 /*-- testimonial --*/
-
-body {
-    background-color:#4A148C
-}
 
 
 @media (max-width:991.98px) {
@@ -743,6 +753,16 @@ header .menuBar nav ul{
     font-weight: 700;
     font-style: italic;
     cursor: pointer;
+}
+
+.linkbar ul li:hover {
+    margin-top: -0.8%;
+    transition: 0.2s ease-out;
+    border-bottom: 1px solid #db195e;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    color: #db195e;
 }
 
 
